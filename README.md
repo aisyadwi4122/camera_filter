@@ -1,11 +1,11 @@
 camera_filter
 ![alt text](image.png)
 
-Jelaskan maksud void async pada praktikum 1?
+1.Jelaskan maksud void async pada praktikum 1?
 void async
 Ketika sebuah metode dideklarasikan dengan void async, ini berarti metode tersebut adalah metode asinkron yang tidak mengembalikan nilai. Biasanya, metode asinkron memiliki tipe pengembalian Task atau Task<T> untuk menunjukkan bahwa mereka menjalankan operasi asinkron yang dapat ditunggu (await). Namun, jika sebuah metode asinkron dideklarasikan dengan void, metode ini biasanya digunakan dalam konteks di mana metode tidak perlu menunggu pengembalian atau hasil, seperti event handler.
 
-Jelaskan fungsi dari anotasi @immutable dan @override
+2.Jelaskan fungsi dari anotasi @immutable dan @override
 a. @immutable
 
     Fungsi: Anotasi @immutable biasanya digunakan dalam framework seperti Flutter (dengan bahasa Dart) untuk menandai bahwa sebuah kelas bersifat immutable. Kelas yang bersifat immutable berarti setelah objeknya dibuat, nilai properti di dalamnya tidak dapat diubah.
